@@ -58,7 +58,7 @@ https://docs.google.com/spreadsheets/d/1lgmQphdAIUNGIlU1zXlIfWt18rcvJttQTVz1fG_a
 ### Wireframe
 https://cacoo.com/diagrams/5UcC1brJzBsUpjTu/E9FD7
 
-### Diagram
+### ER Diagram
 https://cacoo.com/diagrams/lxJZ5fbKvh6y1JN8/A998A
 
 ### Screen Transition Diagram
