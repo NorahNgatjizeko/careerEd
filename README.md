@@ -64,4 +64,4 @@ https://cacoo.com/diagrams/lxJZ5fbKvh6y1JN8/A998A
 
 ### Screen Transition Diagram
 https://cacoo.com/diagrams/3RgpaspOaru08pvc/854A4
-<img src="doc/screentransition.png" alt="screentransition" width='650px'>
+<img src="doc/Screentransition.png" alt="Screentransition" width='650px'>
