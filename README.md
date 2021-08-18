@@ -60,5 +60,8 @@ https://cacoo.com/diagrams/5UcC1brJzBsUpjTu/E9FD7
 
 ### ER Diagram
 https://cacoo.com/diagrams/lxJZ5fbKvh6y1JN8/A998A
+<img src="doc/ER1.png" alt="ER1" width='650px'>
 
 ### Screen Transition Diagram
+https://cacoo.com/diagrams/3RgpaspOaru08pvc/854A4
+<img src="doc/screentransition.png" alt="screentransition" width='650px'>
