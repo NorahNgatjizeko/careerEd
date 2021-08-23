@@ -34,7 +34,7 @@ Ajax
 ### Technology outside the curriculum
 
 ```
-stripe - payment
+reCAPTCHA
 ```
 
 ### Execution Procedure
