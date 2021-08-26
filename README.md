@@ -28,7 +28,7 @@ Rails 5.2.6
 
 ```
 Devise
-Message
+Ajax
 ```
 
 ### Technology outside the curriculum
@@ -65,7 +65,7 @@ https://cacoo.com/diagrams/5UcC1brJzBsUpjTu/E9FD7
 
 https://cacoo.com/diagrams/lxJZ5fbKvh6y1JN8/7C880
 
-<img src="doc/ERD1.png" alt="ERD" width='650px'>
+<img src="doc/ERD.png" alt="ERD" width='650px'>
 
 ### Screen Transition Diagram
 
