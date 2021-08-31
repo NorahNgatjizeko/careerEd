@@ -28,7 +28,7 @@ Rails 5.2.6
 
 ```
 Devise
-Ajax
+Favorites
 ```
 
 ### Technology outside the curriculum
