@@ -7,7 +7,6 @@ class CreateJobs < ActiveRecord::Migration[5.2]
       t.string :job_type
       t.string :location
       t.boolean :remote_ok
-      t.string :apply_url
 
       t.timestamps
     end
