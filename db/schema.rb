@@ -22,7 +22,6 @@ ActiveRecord::Schema.define(version: 2021_08_16_040957) do
     t.string "job_type"
     t.string "location"
     t.boolean "remote_ok"
-    t.string "apply_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -36,10 +35,11 @@ ActiveRecord::Schema.define(version: 2021_08_16_040957) do
     t.integer "sign_in_count", default: 0, null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
-    t.inet "current_sign_in_ip"
-    t.inet "last_sign_in_ip"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string "current_sign_in_ip"
+    t.string "last_sign_in_ip"
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
     t.string "confirmation_token"
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
