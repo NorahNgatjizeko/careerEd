@@ -4,7 +4,7 @@ class JobsController < ApplicationController
 
   # GET /jobs or /jobs.json
   def index
-      @jobs = Job.all.order('created_at desc')
+      @jobs = Job.all.order("created_at desc")
     end
   end
 
@@ -23,7 +23,7 @@ class JobsController < ApplicationController
 
   # POST /jobs or /jobs.json
   def create
-    @job = Job.new(job_params)
+    @job = current_user.jobs.build(job_params)
 
     job_type = params[:job_type]
     job_title = params[:title]
@@ -69,5 +69,5 @@ class JobsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def job_params
-      params.require(:job).permit(:title, :description, :url, :job_type, :location, :remote_ok, :apply_url, :avatar)
+      params.require(:job).permit(:title, :description, :url, :job_type, :location, :remote_ok, :avatar)
     end
